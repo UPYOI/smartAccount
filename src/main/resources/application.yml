@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: smartAccount
+  datasource:
+    url: jdbc:mysql://localhost:3306/smart_account?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.jdbc.Driver
+aliyun:
+  access-key-id: LTAI5t9xKQweukeXgXJUYDuw
+  access-key-secret: y9DIsODAXC4ekMBjy0TNacAvyfpRFi
+sms-chinese:
+  sms-key: 9AC19B7D67076C2A44FFD50D2B9FAA44
+  sms-url: https://utf8api.smschinese.cn/
