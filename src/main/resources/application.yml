@@ -13,4 +13,4 @@ aliyun:
   access-key-secret: ***
 sms-chinese:
   sms-key: ***
-  sms-url: ***
+  sms-url: ****
